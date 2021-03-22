@@ -2,17 +2,20 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0%;
+    /* background-color: lightsteelblue; */
 }
+body{
+    background-color: lightsteelblue;
 
+}
 .container{
-    background-color: lightgreen;
     width: 80%;
-    height: 1000px;
+    height: 100%;
     margin: 0 auto;
 }
 
 .title{
-    background-color: red;
+    color: white;
     height: 100px;
     line-height: 100px;
     text-align: center;
@@ -22,7 +25,6 @@
 
 
 .all{
-    /* background-color: violet; */
     width: 20%;
     position: relative;
     margin: 1rem 1.5rem;
@@ -48,14 +50,7 @@
 }
 .container_card_invisible:hover{
     opacity: 100%;
-}
-
-.ballon_card{
-    width: 100%;
-    height: 200px;
-    background-image: url(../memory_img/noun_air_balloon_3134741.png);
-    background-size: contain;
-    /* background-color: red; */
+    background-color: white;
 }
 
 .text_card{
@@ -64,5 +59,40 @@
     line-height: 50px;
     text-align: center;
     font-size: 30px;
-    /* background-color: yellow; */
+}
+
+.card{
+    width: 100%;
+    height: 200px;
+    background-size: contain;
+}
+
+.ballon{
+    background-image: url(../memory_img/noun_air_balloon_3134741.png);
+}
+
+.bicycle{
+    background-image: url(../memory_img/noun_Bicycle_3134821.png);
+}
+
+.cruise{
+    background-image: url(../memory_img/noun_Cruise_Ship_3134824.png);
+}
+.submarine{
+    background-image: url(../memory_img/noun_Submarine_3134738.png);
+}
+.tram{
+    background-image: url(../memory_img/noun_Tram_3134750.png);
+}
+.tractor{
+    background-image: url(../memory_img/noun_Tractor_3134797.png);
+}
+
+footer{
+    height: 100px;
+    line-height: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 1rem;
 }
