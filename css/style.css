@@ -6,15 +6,39 @@
 
 .container{
     background-color: lightgreen;
-    width: 70%;
+    width: 80%;
     height: 1000px;
     margin: 0 auto;
 }
 
-.title{
+/* .title{
     background-color: red;
     height: 100px;
     line-height: 100px;
     text-align: center;
     font-size: 50px;
+} */
+
+
+.verde{
+    width: 20%;
+    height: 200px;
+    /* background-color: purple; */
+    background-image: url(../memory_img/pattern.png);
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+.title{
+    text-align: center;
+    vertical-align: center;
+    line-height: 200px;
+}
+
+
+.verde:hover{
+    background-image: url(../memory_img/noun_air_balloon_3134741.png);
+    background-size: contain;
+    background-color: white;
+    height: 200px;
+    cursor: pointer;
 }
