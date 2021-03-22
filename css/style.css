@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+
+.container{
+    background-color: lightgreen;
+    width: 70%;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+.title{
+    background-color: red;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 50px;
+}
