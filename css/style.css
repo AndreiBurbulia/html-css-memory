@@ -11,34 +11,58 @@
     margin: 0 auto;
 }
 
-/* .title{
+.title{
     background-color: red;
     height: 100px;
     line-height: 100px;
     text-align: center;
     font-size: 50px;
-} */
+} 
 
 
-.verde{
+
+.all{
+    /* background-color: violet; */
     width: 20%;
-    height: 200px;
-    /* background-color: purple; */
+    position: relative;
+    margin: 1rem 1.5rem;
+    display: inline-block;
+    border-radius: 1rem;
+}
+
+.size_card{
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    border-radius: 1rem;
+}
+.pattern_card{
     background-image: url(../memory_img/pattern.png);
-    background-repeat: repeat-y;
     background-size: contain;
 }
-.title{
-    text-align: center;
-    vertical-align: center;
-    line-height: 200px;
+
+.container_card_invisible{
+    position: absolute;
+    top: 0;
+    opacity: 0%;
+}
+.container_card_invisible:hover{
+    opacity: 100%;
 }
 
-
-.verde:hover{
+.ballon_card{
+    width: 100%;
+    height: 200px;
     background-image: url(../memory_img/noun_air_balloon_3134741.png);
     background-size: contain;
-    background-color: white;
-    height: 200px;
-    cursor: pointer;
+    /* background-color: red; */
+}
+
+.text_card{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    /* background-color: yellow; */
 }
